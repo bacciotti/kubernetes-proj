@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: pod-exercicio
+  labels:
+    app-type: web
+
+spec:
+  containers:
+  - name: pod-exercicio
+    image: httpd
